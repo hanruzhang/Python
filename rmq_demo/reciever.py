@@ -18,4 +18,3 @@ channel.basic_consume(queue='hello', on_message_callback=callback, auto_ack=True
 
 # 启动消费者
 channel.start_consuming()
-print("for test commit")
